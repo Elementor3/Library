@@ -80,7 +80,7 @@ C:\xampp\htdocs\web_shop
 ---
 
 ### 4. Create the Database
-1. Open your browser and go to:
+1. Open your browser and go to: http://localhost/phpmyadmin
 2. Create a new database (for example: `your_database_name`).
 3. Import the provided SQL file.
 ---
@@ -92,7 +92,7 @@ Open the `db.php` file and set:
 $host = "localhost";
 $user = "root";
 $password = "";
-$database = "you_database_name";
+$database = "your_database_name";
 ```
 ---
 
